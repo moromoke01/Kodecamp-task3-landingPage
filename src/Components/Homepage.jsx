@@ -6,7 +6,7 @@ import Project from './Project'
 const Homepage = () => {
   return (
     <div>
-       <h1>mnmnkjn xknck</h1>
+       <h1>Architect Landing Page</h1>
        <HeroSection />
        <About />
        <Project />
