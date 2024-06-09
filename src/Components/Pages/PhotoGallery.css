@@ -1,0 +1,35 @@
+.gallery{
+  width: 100%;
+}
+
+.gallery p{
+  font-size: 40px;
+  text-align: left;
+  line-height: 1em;
+  margin-left: 10px;
+}
+.lighter-title{
+  font-weight: lighter;
+  color: rgb(167, 165, 165);
+}
+
+.photo-gallery{
+  display: grid;
+  grid-template-columns: repeat(5,  1fr);
+  gap: 15px; /* Adjust the gap between images as needed */
+  padding: 10px;
+}
+
+.photo-item {
+  overflow: hidden;
+  /* border-radius: 8px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-item img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
