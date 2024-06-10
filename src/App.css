@@ -6,6 +6,7 @@
   padding: 2rem;
   text-align: center;
   background: #f1f0f0;
+  overflow: hidden;
 }
 
 /* Navbar styling */
@@ -338,6 +339,7 @@ textarea {
   .contact-form {
     width: 100%;
     margin-bottom: 2em;
+    margin: auto;
   }
 
   .contact-form input,
