@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className='hero-section'>
       <div className='hero-text'>
-        <h2>PROJECT LORUM</h2>
+        <h2><span style={projectLight}>Project</span> <br/> Lorum</h2>
         </div>
       <div className='hero-image'>
         <img src={heroImage} style={heroPic} alt="hero-image" />
@@ -22,4 +22,10 @@ const heroPic = {
     margin: '0 auto',
     display: 'block'
 } 
+
+const projectLight = {
+  fontWeight: '100',
+  color: 'gray',
+  textTransform: "uppercase"
+}
 export default HeroSection

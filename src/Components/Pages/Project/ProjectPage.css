@@ -1,0 +1,36 @@
+.ProjectPage{
+    width: 100%;
+    margin-bottom: 3em;
+    color: #000;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-height: 400px;
+    background: #d4d3d381;
+    margin-bottom: 2em;
+    /* padding: 10px; */
+}
+.card img{
+    width: 50%;
+    height: auto;
+}
+
+.card-content{
+    width: 50%;
+    justify-content: left;
+    text-align: justify;
+    margin: 10px 30px;
+    margin-right:2em;
+}
+
+.card-content h2{
+    font-weight: lighter;
+    color:#777777;
+}
+.card-content button{
+    border-radius:0;
+    margin-top: 4em;
+}

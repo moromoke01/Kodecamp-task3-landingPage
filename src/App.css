@@ -71,6 +71,12 @@
   padding: 5em;
 }
 
+.hero-text h2{
+  font-size: 40px;
+  text-align: left;
+  line-height: 1em;
+}
+
 .hero-image {
   width: 80%;
 }
@@ -315,6 +321,7 @@ textarea {
   }
 
   .project-img-grid img {
+    grid-template-columns: 1fr;
     height: auto;
   }
 
