@@ -11,8 +11,8 @@
     max-height: 400px;
     background: #f1ecec81;
     margin-bottom: 2em;
-    /* padding: 10px; */
 }
+
 .card img{
     width: 50%;
     height: auto;
@@ -23,17 +23,41 @@
     justify-content: left;
     text-align: justify;
     margin: 10px 30px;
-    margin-right:2em;
+    margin-right: 2em;
     color: #000;
 }
 
 .card-content h2{
     font-weight: lighter;
-    color:#535252;
+    color: #535252;
 }
+
 .card-content button{
     background: #fff;
     color: #000;
-    border-radius:0;
+    border-radius: 0;
     margin-top: 2em;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        max-height: none;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-content {
+        width: 100%;
+        margin: 10px 0;
+        text-align: justify;
+    }
+
+    .card-content button {
+        margin-top: 1em;
+    }
 }
