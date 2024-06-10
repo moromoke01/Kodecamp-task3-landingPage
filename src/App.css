@@ -79,6 +79,7 @@
   font-size: 40px;
   text-align: left;
   line-height: 1em;
+  color: #000;
 }
 
 .hero-image {
@@ -135,6 +136,7 @@
   text-align: left;
   align-items: left;
   justify-content: left;
+  color: #000;
 }
 
 .about-text h2 {

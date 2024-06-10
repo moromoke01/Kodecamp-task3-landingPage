@@ -49,7 +49,8 @@ const ProjectHeadline = {
   fontSize: '40px',
   textAlign: 'left',
   marginBottom: '30px',
-  lineHeight: '1em'
+  lineHeight: '1em',
+  color:'#000'
 };
 
 export default ProjectPage;
