@@ -5,6 +5,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background: #f1f0f0;
 }
 
 /* Navbar styling */
@@ -31,7 +32,10 @@
   color: #000000;
   cursor: pointer;
 }
-
+.navbar ul li{
+  text-decoration: none;
+  color: #616060;
+}
 .navbar-menu {
   display: flex;
   list-style: none;
