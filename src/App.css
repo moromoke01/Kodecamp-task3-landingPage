@@ -134,7 +134,7 @@
 
 .about-text {
   margin: 1em;
-  text-align: left;
+  text-align: justify;
   align-items: left;
   justify-content: left;
   color: #000;
@@ -344,7 +344,9 @@ textarea {
 
   .contact-form input,
   .contact-form textarea {
-    width: 100%;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 15px;
   }
 
   .contact-form button {
