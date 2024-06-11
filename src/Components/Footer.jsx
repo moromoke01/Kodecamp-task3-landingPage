@@ -5,6 +5,9 @@ import { ImFacebook } from "react-icons/im";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaPinterestP } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { IoMdCall } from "react-icons/io";
+import { MdOutlineMail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -29,9 +32,9 @@ const Footer = () => {
        <div className='footer-group'>
         <ul>
         <p>Contacts</p>
-            <li>1234 sample street austin Texas 78681</li>
-            <li>512.568.7889</li>
-            <li>sampleemail@gmail.com</li>
+            <li><FaLocationDot />1234 sample street austin Texas 78681</li>
+            <li><IoMdCall />512.568.7889</li>
+            <li><MdOutlineMail />sampleemail@gmail.com</li>
         </ul>
        </div>
 
