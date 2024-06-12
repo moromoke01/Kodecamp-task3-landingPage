@@ -41,6 +41,12 @@
     gap: 30px;
 }
 
+@media (max-width: 480px) {
+    .footer-box{
+        grid-template-columns: 2fr;
+    }
+}
+
 @media (max-width:768px){
     .footer-box{
         grid-template-columns: 1fr;

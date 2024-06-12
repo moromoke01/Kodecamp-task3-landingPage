@@ -84,6 +84,7 @@
   padding: 15px;
   border-radius: 0;
   text-align: left;
+  color: #000;
 }
 
 .hero-text {
@@ -217,6 +218,7 @@
   width: 50%;
   text-align: left;
   margin-right: 4em;
+  color: #000;
 }
 
 /* Project section */
