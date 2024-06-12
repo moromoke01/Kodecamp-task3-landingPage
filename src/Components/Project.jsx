@@ -11,9 +11,8 @@ const Project = () => {
 
         <p>Our Projects</p>
       <div className='project-img-grid'>
-          <div><img src={projectImg0} alt="projectImg0" /> Sample Project</div>
+          <div className="FirstProjectImg"><img src={projectImg0} alt="projectImg0" /> <h2 className="content">Sample Project</h2></div>
           <img src={projectImg1} alt="projectImg1" />
-          <img src={projectImg3} alt="projectImg3" />
           <img src={projectImg2} alt="projectImg2" />
           <img src={projectImg3} alt="projectImg3" />
           <img src={projectImg4} alt="projectImg" />
@@ -21,7 +20,7 @@ const Project = () => {
       
       <button>All Projects <IoIosArrowRoundForward /></button>
     </div>
-  )
+ )
 }
 
 export default Project
