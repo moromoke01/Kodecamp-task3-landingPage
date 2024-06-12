@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,7 +16,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
       <button className="navbar-toggle" onClick={toggleNavbar}>
-        ☰
+        {isOpen ? '✖' : '☰'}
       </button>
       <ul className={`navbar-menu ${isOpen ? 'open' : ''}`}>
         <li className="navbar-item">
