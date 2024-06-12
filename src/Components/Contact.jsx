@@ -1,5 +1,6 @@
 import React from 'react'
 import contactImage from '../assets/contact.png';
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 
 const Contact = () => {
@@ -16,7 +17,7 @@ const Contact = () => {
 
                 </textarea><br/>
 
-                <button>Send Message</button>
+                <button>Send Message <IoIosArrowRoundForward /></button>
             </form>
       </div>
       <div className='contact-image'>

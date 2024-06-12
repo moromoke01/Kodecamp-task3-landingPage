@@ -1,5 +1,8 @@
 .gallery {
   width: 100%;
+  height: auto;
+  margin-bottom: 3em;
+  padding-bottom: 7em;
 }
 
 .gallery p {
@@ -48,6 +51,12 @@
 }
 
 @media (max-width: 768px) {
+  .gallery {
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
   .photo-gallery {
     grid-template-columns: 1fr;
   }
