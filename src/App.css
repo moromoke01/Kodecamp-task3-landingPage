@@ -380,6 +380,23 @@ textarea {
     width: 100%;
   }
 
+   /* mission */
+   .mission-box-flex{
+    flex-direction: column;
+   flex: 1;
+   }
+
+   .box-flex{
+    width: 100%;
+   }
+
+   .box-flex p{
+    width: 100%;
+    text-align: left;
+    margin-right: 15px;
+  }
+
+   /* about */
   .about {
     flex-direction: column;
     height: auto;
