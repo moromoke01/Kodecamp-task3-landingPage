@@ -20,5 +20,7 @@ const Project = () => {
       
       <button>All Projects <IoIosArrowRoundForward /></button>
     </div>
-  )
+ )
 }
+
+export default Project
