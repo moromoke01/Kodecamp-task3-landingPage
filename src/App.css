@@ -237,6 +237,7 @@
 }
 
 .FirstProjectImg{ 
+  grid-column: span 2
   width:auto; 
   position:relative; 
 } 
@@ -254,13 +255,8 @@
   margin:auto;
 }
 
-
-
-.FirstProjectImg {
-  position: relative;
-}
-
 .FirstProjectImg img {
+  grid-column: span 2
   width: 100%;
   max-width: 100%;
   height: auto;
