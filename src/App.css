@@ -235,19 +235,41 @@
   font-size: 40px;
   color: #a7a3a3;
 }
-.FirstProjectImg{
-  width:auto;
-  position:relative;
+
+
+/* .project-img-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+} */
+
+.FirstProjectImg {
+  position: relative;
 }
-.FirstProjectImg .content{
-  position:absolute;
-  background: rgba(0, 0, 0, 0.5);
-  color:#f1f1f1;
-  width:auto;
-  height:auto;
-  padding:5px;
-  text-align:center;
-  margin:auto;
+
+.FirstProjectImg img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.content {
+  color: #fff;
+  margin: 0;
+}
+
+.description {
+  color: #fff;
+  margin: 5px 0 0;
 }
 .project button {
   display: block;
