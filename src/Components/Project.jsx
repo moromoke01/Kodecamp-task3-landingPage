@@ -13,7 +13,6 @@ const Project = () => {
       <div className='project-img-grid'>
           <div className="FirstProjectImg"><img src={projectImg0} alt="projectImg0" /> <h2 className="content">Sample Project</h2></div>
           <img src={projectImg1} alt="projectImg1" />
-          <img src={projectImg3} alt="projectImg3" />
           <img src={projectImg2} alt="projectImg2" />
           <img src={projectImg3} alt="projectImg3" />
           <img src={projectImg4} alt="projectImg" />
