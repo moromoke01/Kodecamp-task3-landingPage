@@ -5,9 +5,11 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Contact = () => {
   return (
+    <div className='contactUs'>
+    <p>Contact Form</p>
     <div className='contact'>
       <div className='contact-form'>
-        <p>Contact Form</p>
+        
             <form>
                <input type="text" name="name" id='name' placeholder='Enter your full name'/>
                 <input type="text" name="email" id='email' placeholder='Enter your email' />
@@ -23,6 +25,8 @@ const Contact = () => {
       <div className='contact-image'>
         <img src={contactImage} alt="contactImage" />
       </div>
+    </div>
+
     </div>
   )
 }

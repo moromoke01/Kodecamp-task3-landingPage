@@ -320,12 +320,23 @@
 }
 
 /* Contact form styling */
-.contact {
-  display: flex;
-  flex-direction: row;
+.contactUs p{
+  font-size: 30px;
+  text-align: left;
+  margin-left: 2em;
+  color: #acaaaa;
+  margin-bottom: 10px;
+}
+.contactUs{
   width: 100%;
   margin-top: 3em;
   padding-bottom: 1em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+ 
 }
 
 .contact-form {
@@ -334,7 +345,7 @@
   width: 40%;
 }
 
-.contact p {
+/* .contact p {
   font-size: 30px;
   font-weight: 500;
   color: #acaaaa;
@@ -342,7 +353,7 @@
   margin-bottom: 10px;
   margin-left: 2em;
   padding-top: 0;
-}
+} */
 
 .contact-form input,
 textarea {
@@ -374,8 +385,7 @@ textarea {
 
 .contact-image img {
   object-fit: cover;
-  margin-top: 1em;
-  padding-top: 2em;
+  /* padding-top: 2em; */
   width: 100%;
   margin-top: 3em;
   margin: auto;
@@ -488,9 +498,11 @@ textarea {
 
   .contact-image {
     width: 100%;
+    object-fit: cover;
   }
 
   .contact-image img {
+    object-fit: cover;
     width: 100%;
   }
 }
