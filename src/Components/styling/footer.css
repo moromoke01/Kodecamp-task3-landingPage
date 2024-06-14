@@ -43,7 +43,7 @@
 
 @media (max-width: 480px) {
     .footer-box{
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
         font-size: 12px;
     }
 }
@@ -52,5 +52,11 @@
     .footer-box{
         grid-template-columns: 1fr;
     }
+}
     
+@media (max-width:1024px){
+  .footer-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 }
