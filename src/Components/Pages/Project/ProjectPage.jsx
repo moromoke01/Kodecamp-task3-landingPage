@@ -30,7 +30,7 @@ const ProjectPage = () => {
     <div>
       <p style={ProjectHeadline}>
         Our <br />
-        <b>Projects</b>
+        <b style={ProjectHeadline2}>Projects</b>
       </p>
       {CardData.map((card, index) => (
         <Card
@@ -52,5 +52,9 @@ const ProjectHeadline = {
   lineHeight: '1em',
   color:'#000'
 };
+
+const ProjectHeadline2 = {
+  color: '#000',
+}
 
 export default ProjectPage;

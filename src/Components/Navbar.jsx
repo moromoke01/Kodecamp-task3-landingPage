@@ -15,9 +15,7 @@ const Navbar = () => {
       <div className="navbar-brand">
         <img src={logo} alt="logo" />
       </div>
-      <button className="navbar-toggle" onClick={toggleNavbar}>
-        {isOpen ? '✖' : '☰'}
-      </button>
+      
       <ul className={`navbar-menu ${isOpen ? 'open' : ''}`}>
         <li className="navbar-item">
           <Link to="/">Main</Link>
@@ -35,6 +33,10 @@ const Navbar = () => {
           <Link to="/contacts">Contacts</Link>
         </li>
       </ul>
+
+      <button className="navbar-toggle" onClick={toggleNavbar}>
+        {isOpen ? '✖' : '☰'}
+      </button>
     </nav>
   );
 };

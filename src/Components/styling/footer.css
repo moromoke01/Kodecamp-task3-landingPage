@@ -44,6 +44,7 @@
 @media (max-width: 480px) {
     .footer-box{
         grid-template-columns: 2fr;
+        font-size: 12px;
     }
 }
 
